@@ -6,18 +6,21 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-allogger = {editable = true,git = "ssh://git@github.com/s-bl/ALLogger.git",ref = "master"}
+al-logger = {editable = true,git = "ssh://git@github.com/s-bl/ALLogger.git",ref = "master"}
 colorednoise = "*"
 gym = "*"
 imageio = "*"
 scipy = "*"
 forwardable = "*"
 sklearn = "*"
+scikit-learn = "*"
 tqdm = "*"
 seaborn = "*"
 matplotlib = "*"
 torch = "*"
-smart-settings = {editable = true,git = "ssh://git@github.com/martius-lab/smart-settings.git"}
+al-smart-settings = {editable = true,git = "ssh://git@github.com/martius-lab/smart-settings.git"}
+patchelf = "*"
+cython = { version = "<3", editable = false }
 mujoco-py = "==2.0.2.0"
 
 [requires]

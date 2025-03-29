@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  icemplayground:
+    image: icemplayground
+    container_name: iCEMPlayground
+    volumes:
+      - .:/workspace
+    environment:
+      - DISPLAY=${DISPLAY}
+    devices:
+      - "/dev/dri:/dev/dri"
+    network_mode: host
+    stdin_open: true
+    tty: true
+    command: bash
