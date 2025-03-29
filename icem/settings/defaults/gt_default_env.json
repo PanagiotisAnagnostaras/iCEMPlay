@@ -1,6 +1,6 @@
 {
   "rollout_params": {
-    "render": false,
+    "render": true,
     "render_initial": false,
     "render_eval": false,
     "record": false,
