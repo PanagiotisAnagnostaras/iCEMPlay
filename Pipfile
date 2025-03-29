@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 al-logger = {editable = true,git = "ssh://git@github.com/s-bl/ALLogger.git",ref = "master"}
 colorednoise = "*"
-gym = "*"
+gym = "==0.18.3"
 imageio = "*"
 scipy = "*"
 forwardable = "*"

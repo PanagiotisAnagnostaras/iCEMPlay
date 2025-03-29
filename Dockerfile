@@ -31,7 +31,4 @@ ENV SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/.mujoco/mujoco200/bin
 RUN mkdir ~/mujoco && unzip /workspace/external/mujoco200_linux.zip -d ~/.mujoco && cp /workspace/mjkey.txt /root/.mujoco/mjkey.txt
 
-
-# RUN eval "$(ssh-agent -s)" && ssh-add /workspace/ssh/id_rsa && ssh -T git@github.com && pipenv install
-
 CMD ["bash"]
