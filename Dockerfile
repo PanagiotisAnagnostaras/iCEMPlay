@@ -26,7 +26,6 @@ RUN pip install --upgrade pip
 RUN pip install pipenv
 
 COPY . /workspace/
-WORKDIR /workspace/external/iCEM
 
 ENV SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/.mujoco/mujoco200/bin
