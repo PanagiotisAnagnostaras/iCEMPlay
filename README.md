@@ -17,4 +17,5 @@ Go to `https://roboti.us/license.html` get the activation key and place it here 
 `bash enter_container.sh`
 
 ## Install dependencies
+Inside container
 `bash install.sh`
